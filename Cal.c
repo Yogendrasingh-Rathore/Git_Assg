@@ -5,36 +5,10 @@ int Add(int a, int b)
 	return a+b;	
 }
 
-int subtract(int a, int b)
-{
-	if(a>b)
-	{
-		return a-b;
-	}
-	else
-	{
-		return b-a;
-	}
-}
-
-int divide(int a, int b)
-{
-	if(b!=0)
-	{
-		return a/b;
-	}
-	else
-	{
-		return b;
-	}
-}
-
 void main()
 {
-	int r,r1;
+	int r;
 	r = Add(5,7);
 	printf("Addition is : %d",r);
-	r1 = subtract(5,7);
-	printf("Subtraction is : %d",r1);
 	
 }
