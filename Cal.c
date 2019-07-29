@@ -1,14 +1,14 @@
 #include<stdio.h>
 
-int add(int a, int b)
+int subtract(int a, int b)
 {
-	return a+b;
+	return a-b;
 }
 
 void main()
 {
 	int r;
-	r = add(5,7);
-	printf("Addition is : %d",r);
+	r = subtract(5,7);
+	printf("Subtraction is : %d",r);
 	
 }
