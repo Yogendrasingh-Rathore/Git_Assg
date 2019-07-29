@@ -22,7 +22,7 @@ void main()
 	printf("Addition is : %d",r);
 
 	r = subtract(5,7);
-	printf("Subtraction is : %d",r1);
+	printf("Subtraction is : %d",r);
 
 	r = multiply(5,7);
 	printf("Multiplication is : %d",r);
